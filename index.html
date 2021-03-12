@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <header class="todo-main__header">
+    <h2 class="todo-main__date">2021. 03. 05</h2>
+    <h1 class="todo-main__day">Friday</h1>
+  </header>
+  <main>
+    <form>
+      <input type="text" placeholder="할 일을 입력하세요!" class="todo-main__input" />
+      <input type="submit" value="추가" />
+  </form>
+    <ul class="todo-main__list">
+      <li class="todo-main__list-todo">
+        <input type="checkbox" class="todo-main__list-check" />
+        <p class="todo-main__list-name">잔반 남기지 않기</p>
+        <input type="button" value="x" class="todo-main__list-delete" />
+      </li>
+      <li class="todo-main__list-todo">
+        <input type="checkbox" class="todo-main__list-check" />
+        <p class="todo-main__list-name">걸어서 출근하기</p>
+        <input type="button" value="x" class="todo-main__list-delete" />
+      </li>
+      <li class="todo-main__list-todo">
+        <input type="checkbox" class="todo-main__list-check" />
+        <p class="todo-main__list-name">빨대 사용하지 않기</p>
+        <input type="button" value="x" class="todo-main__list-delete" />
+      </li>
+    </ul>
+    <form action="todo-find.html" method="get" id="goto-todo-find">
+      <input type="submit" value="find" />
+    </form>
+  </main>
+  <footer>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="index.html">
+            <p>todo</p>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="community-main.html">
+            <p>community</p>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="myinfo-main.html">
+            <span class="nav__notification-small"></span>
+            <p>myinfo</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
