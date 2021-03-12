@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,24 +16,30 @@
     <h1 class="todo-main__day">Friday</h1>
   </header>
   <main>
-    <form>
+    <form class="todo-main__form">
       <input type="text" placeholder="할 일을 입력하세요!" class="todo-main__input" />
-      <input type="submit" value="추가" />
+      <input type="submit" value="추가" class="todo-main__btn" />
   </form>
     <ul class="todo-main__list">
       <li class="todo-main__list-todo">
-        <input type="checkbox" class="todo-main__list-check" />
-        <p class="todo-main__list-name">잔반 남기지 않기</p>
+        <div class="todo-main__list-checkset">
+          <input type="checkbox" class="todo-main__list-check" />
+          <p class="todo-main__list-name">잔반 남기지 않기</p>
+      </div>
         <input type="button" value="x" class="todo-main__list-delete" />
       </li>
       <li class="todo-main__list-todo">
-        <input type="checkbox" class="todo-main__list-check" />
-        <p class="todo-main__list-name">걸어서 출근하기</p>
+        <div class="todo-main__list-checkset">
+          <input type="checkbox" class="todo-main__list-check" />
+          <p class="todo-main__list-name">걸어서 출근하기</p>
+        </div>
         <input type="button" value="x" class="todo-main__list-delete" />
       </li>
       <li class="todo-main__list-todo">
-        <input type="checkbox" class="todo-main__list-check" />
-        <p class="todo-main__list-name">빨대 사용하지 않기</p>
+        <div class="todo-main__list-checkset">
+          <input type="checkbox" class="todo-main__list-check" />
+          <p class="todo-main__list-name">빨대 사용하지 않기</p>
+        </div>
         <input type="button" value="x" class="todo-main__list-delete" />
       </li>
     </ul>

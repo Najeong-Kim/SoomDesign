@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/head-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/todo-main.css";
+
+body {
+  width: 360px;
+  height: 640px;
+  padding: 10px;
+}
