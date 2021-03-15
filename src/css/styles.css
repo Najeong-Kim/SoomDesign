@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/head-bar.css";
+@import "components/nav-bar.css";
+@import "components/list.css";
+
+/* Screens */
+@import "screens/todo-main.css";
+@import "screens/todo-find.css";
+@import "screens/community-feed.css";
+@import "screens/community-todo.css";
+@import "screens/community-description.css";
+@import "screens/myinfo-main.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px; 
+}
+
+.head__link-bar-margin {
+  margin-top: 50px;
+}

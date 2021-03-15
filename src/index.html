@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soom</title>
+
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+  <header class="todo-main__header">
+    <h2 class="todo-main__date">2021. 03. 05</h2>
+    <h1 class="todo-main__day">Friday</h1>
+  </header>
+
+  <main>
+    <form class="todo-main__form">
+      <input type="text" placeholder="할 일을 입력하세요." class="todo-main__input" />
+      <input type="submit" value="추가" class="todo-main__submit" />
+  </form>
+    <ul class="list">
+      <li class="list-todo">
+        <div class="list-checkset">
+          <input type="checkbox" class="list-check" />
+          <p class="list-name">잔반 남기지 않기</p>
+        </div>
+        <input type="button" class="list-delete"><i class="fas fa-times"></i></input>
+      </li>
+      <li class="list-todo">
+        <div class="list-checkset">
+          <input type="checkbox" class="list-check" />
+          <p class="list-name">걸어서 출근하기</p>
+        </div>
+        <input type="button" class="list-delete"><i class="fas fa-times"></i></input>
+      </li>
+      <li class="list-todo">
+        <div class="list-checkset">
+          <input type="checkbox" class="list-check" />
+          <p class="list-name">빨대 사용하지 않기</p>
+        </div>
+        <input type="button" class="list-delete"><i class="fas fa-times"></i></input>
+      </li>
+    </ul>
+    <form action="todo-find.html" method="get" id="goto-todo-find">
+      <input type="submit" value="find" />
+    </form>
+  </main>
+  <footer>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="index.html">
+            <p>todo</p>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="community-main.html">
+            <p>community</p>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="myinfo-main.html">
+            <span class="nav__notification-small"></span>
+            <p>myinfo</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  
+  <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+  ></script>
+</body>
+</html>

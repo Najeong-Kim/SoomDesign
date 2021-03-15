@@ -1,0 +1,46 @@
+.list {
+  margin-left: 5vw; 
+  margin-top: 5vh;
+ }
+ 
+ .list-checkset {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .list-todo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 4vh 4vh 4vh 0;
+   padding-bottom: 1vh;
+   border-bottom: var(--main-border);
+ }
+ 
+ .list-name {
+  font-size: 2vh;
+  color: rgba(0, 0, 0, 0.8);
+ }
+
+ .list-check {
+   margin-right: 2vw;
+   width: 2vh;
+   height: 2vh;
+   font-family: 'Nanum Gothic Coding', monospace;
+  }
+ 
+ .list-delete {
+   width: 3vh;
+   height: 3vh;
+   border: none;
+   background-color: white;
+   font-size: 3vh;
+   padding: 0;
+   padding-bottom: 0.05vh;
+   color: #99e6ff;
+ }
+
+ .fa-times {
+   color: #99e6ff;
+   font-weight: lighter;
+ }

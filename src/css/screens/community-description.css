@@ -1,0 +1,14 @@
+.community-description__container {
+  display: flex;
+  justify-content: center;
+}
+
+.community-description__container input {
+  width: 70%;
+  height: 300px;
+  padding: 20px;
+}
+
+.community-description__container input::placeholder {
+  font-size: 20px;
+}

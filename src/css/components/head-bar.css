@@ -1,0 +1,16 @@
+.head__link-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: -10px;
+  width: 105vw;
+  padding: 20px 50px;
+  background-color: #f9f9fa;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.head__link p:nth-child(2) {
+  width: 50px;
+}

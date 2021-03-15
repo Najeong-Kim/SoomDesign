@@ -1,0 +1,16 @@
+.todo-find__title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.todo-find__list-todo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#add-todo-find {
+  display: flex;
+  justify-content: center;
+}
