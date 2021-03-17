@@ -1,6 +1,6 @@
 .list {
-  margin-left: 5vw; 
   margin-top: 5vh;
+  padding: 0 7.5vw;
  }
  
  .list-checkset {
@@ -18,7 +18,7 @@
  }
  
  .list-name {
-  font-size: 2vh;
+  font-size: 2.5vh;
   color: rgba(0, 0, 0, 0.8);
  }
 

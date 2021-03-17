@@ -1,14 +1,22 @@
 .todo-find__title {
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 30px;
+  font-size: 4vh;
+  margin: 20vh 15vw;
+  font-family: 'Plantagenet Cherokee';
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1.5px solid #ddf1f6;
 }
 
-.todo-find__list-todo {
+.todo-find__list-checkset {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
+  align-items: center;
+  padding: 0 5vw;
 }
+
+.todo-find__icon {
+  margin-right: 3vw;
+}
+
 
 #add-todo-find {
   display: flex;
