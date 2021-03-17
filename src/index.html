@@ -22,41 +22,38 @@
       <input type="text" placeholder="할 일을 입력하세요." class="todo-main__input" />
       <input type="submit" value="추가" class="todo-main__submit" />
     </form>
-    <ul class="list">
-      <li class="list-todo">
-        <div class="list-checkset">
-          <input type="checkbox" class="list-check" />
-          <p class="list-name">잔반 남기지 않기</p>
+    <ul class="list todo-main__list">
+      <li class="list-todo todo-main__list-todo">
+        <div class="list-checkset todo-main__list-checkset">
+          <input type="checkbox" class="list-check todo-main__list-check" />
+          <p class="list-name todo-main__list-name">잔반 남기지 않기</p>
         </div>
-        <input type="button" class="list-delete"><span class="material-icons delete-icon">
-          clear
-        </span></input>
+        <input type="button" class="list-delete todo-main__list-delete">
+          <span class="material-icons delete-icon">clear</span>
+        </input>
       </li>
-      <li class="list-todo">
-        <div class="list-checkset">
-          <input type="checkbox" class="list-check" />
-          <p class="list-name">걸어서 출근하기</p>
+      <li class="list-todo todo-main__list-todo">
+        <div class="list-checkset todo-main__list-checkset">
+          <input type="checkbox" class="list-check todo-main__list-check" />
+          <p class="list-name todo-main__list-name">걸어서 출근하기</p>
         </div>
-        <input type="button" class="list-delete"><span class="material-icons delete-icon">
-          clear
-        </span></input>
+        <input type="button" class="list-delete todo-main__list-delete">
+          <span class="material-icons delete-icon">clear</span>
+        </input>
       </li>
-      <li class="list-todo">
-        <div class="list-checkset">
-          <input type="checkbox" class="list-check" />
-          <p class="list-name">빨대 사용하지 않기</p>
+      <li class="list-todo todo-main__list-todo">
+        <div class="list-checkset todo-main__list-checkset">
+          <input type="checkbox" class="list-check todo-main__list-check" />
+          <p class="list-name todo-main__list-name">빨대 사용하지 않기</p>
         </div>
-        <input type="button" class="list-delete"><span class="material-icons delete-icon">
-          clear
-        </span>
+        <input type="button" class="list-delete todo-main__list-delete">
+          <span class="material-icons delete-icon">clear</span>
         </input>
       </li>
     </ul>
     <form action="todo-find.html" method="get" id="goto-todo-find">
-      <input type="submit">
-        <span class="material-icons">
-          search
-        </span>
+      <input type="submit" class="todo-main__list-search">
+        <span class="material-icons">search</span>
       </input>
     </form>
   </main>
@@ -64,32 +61,22 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="index.html">
-            <span class="material-icons">
-              list
-            </span>
+          <a class="nav__link nav__now" href="index.html">
+            <span class="material-icons">list</span>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="community-main.html">
-            <span class="material-icons">
-              subtitles
-            </span>
+            <span class="material-icons">subtitles</span>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="myinfo-main.html">
-            <span class="nav__notification-small"></span>
-            <span class="material-icons">
-              account_circle
-            </span>
+            <span class="material-icons">account_circle</span>
           </a>
         </li>
       </ul>
     </nav>
   </footer>
-
-  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -15,5 +15,9 @@
 
 .nav__link {
   position: relative;
-  color: #2e363e;
+  color: #8e9397;
+}
+
+.nav__now {
+  color: var(--blue);
 }
