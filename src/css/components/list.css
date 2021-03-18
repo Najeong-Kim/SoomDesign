@@ -1,46 +1,59 @@
 .list {
   margin-top: 5vh;
-  padding: 0 6vw;
+  padding: 0 8%;
  }
  
- .list-checkset {
-   display: flex;
-   align-items: center;
- }
+.list-checkset {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
  
- .list-todo {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 4vh 4vh 4vh 0;
-   padding-bottom: 1vh;
-   border-bottom: var(--main-border);
- }
+.list-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8% 8% 8% 0;
+  padding-bottom: 3%;
+  border-bottom: var(--main-border);
+}
  
- .list-name {
-  font-size: 2.5vh;
+.list-name {
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
- }
+  width: 60%;
+}
 
- .list-check {
-   margin-right: 2vw;
-   width: 2vh;
-   height: 2vh;
-   font-family: 'Nanum Gothic Coding', monospace;
-  }
+.list-check {
+  margin-right: 10%;
+  width: 18px;
+  height: 18px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  cursor: pointer,
+}
  
- .list-delete {
-   width: 3vh;
-   height: 3vh;
-   border: none;
-   background-color: white;
-   font-size: 3vh;
-   padding: 0;
-   padding-bottom: 0.05vh;
-   color: #99e6ff;
- }
+.list-delete {
+  width: 18px;
+  height: 18px;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  padding: 0;
+  padding-bottom: 1%;
+  color: #99e6ff;
+}
 
- .fa-times {
-   color: #99e6ff;
-   font-weight: lighter;
- }
+.list-delete-container {
+  display: inline-block;
+  position: relative;
+}
+
+.delete-icon {
+  position: absolute;
+  left: 0;
+}
+
+.fa-times {
+  color: #99e6ff;
+  font-weight: lighter;
+}

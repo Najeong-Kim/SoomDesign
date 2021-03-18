@@ -1,9 +1,9 @@
 .nav {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
-  padding: 2vh 10vw;
+  padding: 5% 15%;
   box-sizing: border-box;
   border-top: 0.5px solid rgba(121, 121, 121, 0.3);
 }
@@ -20,4 +20,16 @@
 
 .nav__now {
   color: var(--blue);
+}
+
+.regions {
+  border: none;
+  background-color:#f9f9fa;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'roboto';
+  font-size: 0.9em;
+}
+
+.regions:focus {
+  outline: none;
 }

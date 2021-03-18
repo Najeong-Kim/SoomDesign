@@ -58,14 +58,11 @@
 }
 
 body {
+  position: relative;
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
+  margin: auto;
   /* padding: 20px;  */
-}
-
-.head__link-bar-margin {
-  margin-top: 50px;
 }
 
 @media screen and (max-width: 320px) {
@@ -83,11 +80,5 @@ body {
 @media screen and (max-height: 568px) {
   body {
     height: 568px;
-  }
-}
-
-@media screen and (min-height: 896px) {
-  body {
-    height: 896px;
   }
 }
