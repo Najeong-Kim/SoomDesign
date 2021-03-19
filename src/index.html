@@ -22,39 +22,41 @@
       <input type="text" placeholder="할 일을 입력하세요." class="todo-main__input" />
       <input type="submit" value="추가" class="todo-main__submit" />
     </form>
-    <ul class="list todo-main__list">
-      <li class="list-todo todo-main__list-todo">
-        <div class="list-checkset todo-main__list-checkset">
-          <input type="checkbox" class="list-check todo-main__list-check" />
-          <p class="list-name todo-main__list-name">잔반 남기지 않기</p>
-        </div>
-        <div class="list-delete-container">
-          <input type="button" class="list-delete todo-main__list-delete">
-          <span class="material-icons delete-icon">clear</span>
-          </input>
-        </div>
-      </li>
-      <li class="list-todo todo-main__list-todo">
-        <div class="list-checkset todo-main__list-checkset">
-          <input type="checkbox" class="list-check todo-main__list-check" />
-          <p class="list-name todo-main__list-name">걸어서 출근하기</p>
-        </div>
-        <div class="list-delete-container">
-          <input type="button" class="list-delete todo-main__list-delete" />
-          <span class="material-icons delete-icon">clear</span>
-        </div>
-      </li>
-      <li class="list-todo todo-main__list-todo">
-        <div class="list-checkset todo-main__list-checkset">
-          <input type="checkbox" class="list-check todo-main__list-check" />
-          <p class="list-name todo-main__list-name">빨대 사용하지 않기</p>
-        </div>
-        <div class="list-delete-container">
-          <input type="button" class="list-delete todo-main__list-delete" />
-          <span class="material-icons delete-icon">clear</span>
-        </div>
-      </li>
-    </ul>
+    <div class="list-container">
+      <ul class="list todo-main__list">
+        <li class="list-todo todo-main__list-todo">
+          <div class="list-checkset todo-main__list-checkset">
+            <input type="checkbox" class="list-check todo-main__list-check" />
+            <p class="list-name todo-main__list-name">잔반 남기지 않기</p>
+          </div>
+          <div class="list-delete-container">
+            <input type="button" class="list-delete todo-main__list-delete">
+            <span class="material-icons delete-icon">clear</span>
+            </input>
+          </div>
+        </li>
+        <li class="list-todo todo-main__list-todo">
+          <div class="list-checkset todo-main__list-checkset">
+            <input type="checkbox" class="list-check todo-main__list-check" />
+            <p class="list-name todo-main__list-name">걸어서 출근하기</p>
+          </div>
+          <div class="list-delete-container">
+            <input type="button" class="list-delete todo-main__list-delete" />
+            <span class="material-icons delete-icon">clear</span>
+          </div>
+        </li>
+        <li class="list-todo todo-main__list-todo">
+          <div class="list-checkset todo-main__list-checkset">
+            <input type="checkbox" class="list-check todo-main__list-check" />
+            <p class="list-name todo-main__list-name">빨대 사용하지 않기</p>
+          </div>
+          <div class="list-delete-container">
+            <input type="button" class="list-delete todo-main__list-delete" />
+            <span class="material-icons delete-icon">clear</span>
+          </div>
+        </li>
+      </ul>
+    </div>
     <form action="todo-find.html" method="get" id="goto-todo-find">
       <div class="todo-main__list-search-container">
         <input type="submit" value="" class="todo-main__list-search" />

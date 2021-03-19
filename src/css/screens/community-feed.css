@@ -3,17 +3,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 0;
+  padding: 50px 0 80px 0;
   height: 100vh;
 }
 
 .community-feed {
-  width: 90%;
+  width: 97%;
   margin-top: 20px;
-  padding: 0 5%;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-  border-radius: 3%;
-  padding-bottom: 1.5vh;
+  padding: 5%;
+  box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 1%;
 }
 
 .community-feed__profile {
@@ -22,49 +21,55 @@
 }
 
 .community-feed__profile-photo {
-  width: 5vh;
-  height: 5vh;
-  margin: 2vh 2vw 2vh 0;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 5px;
   border-radius: 50%;
 }
 
 .community-feed__user {
+  margin-top: 1px;
   font-weight: 600;
-  font-size: 1.7vh;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.8);
 }
 
 .community-feed__day {
-  margin-top: 1vh;
-  font-size: 1.4vh;
+  margin-top: 6px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--blue);
 }
 
 .community-feed__todo {
-  font-size: 2vh;
+  font-size: 18px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.7);
 }
 
 .community-feed__today {
-  margin-top: 3vh;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
+.community-feed__time {
+  font-size: 13px;
+}
+
 .community-feed__photo-container {
   display: flex;
   justify-content: center;
-  margin: 3vh 0;
-  padding: 3vh;
-  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fafafa;
 }
 
 .community-feed__description {
-  margin-bottom: 3vh;
-  font-size: 2vh;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .community-feed__recycle {
@@ -84,7 +89,7 @@
   color: gray;
 }
 
-.community-feed__time, .community-feed__recycle-number {
+.community-feed__recycle-number {
   font-size: 1.3vh;
 }
 
