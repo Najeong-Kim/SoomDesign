@@ -7,6 +7,21 @@
   overflow: scroll;
   height: 47vh;
 }
+
+.list-container::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.list-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.list-container::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
  
 .list-checkset {
   display: flex;
@@ -18,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 6% 8% 2%;
+  margin: 0 2% 8% 2%;
   padding-bottom: 3%;
   border-bottom: var(--main-border);
 }

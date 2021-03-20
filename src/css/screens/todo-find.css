@@ -1,15 +1,3 @@
-.todo-find__title {
-  text-align: center;
-  font-size: 25px;
-  font-family: 'Plantagenet Cherokee';
-  color: rgba(0, 0, 0, 0.5);
-  border-bottom: 1.5px solid #ddf1f6;
-  padding-top: 150px;
-  width: 85%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
 .todo-find__list-checkset {
   display: flex;
   align-items: center;
@@ -18,6 +6,7 @@
 
 .todo-find__icon {
   margin-right: 5%;
+  color: var(--blue);
 }
 
 .todo-find__list-check {

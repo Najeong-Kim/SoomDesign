@@ -5,6 +5,7 @@
 @import "components/head-bar.css";
 @import "components/nav-bar.css";
 @import "components/list.css";
+@import "components/title.css";
 
 /* Screens */
 @import "screens/todo-main.css";
@@ -31,7 +32,6 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;

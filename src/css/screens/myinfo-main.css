@@ -1,5 +1,15 @@
+.user-info-page {
+  height: 90%;
+  padding-bottom: 50px;
+  overflow: scroll;
+}
+
+.user-info-page::-webkit-scrollbar {
+  background-color: transparent;
+}
+
 .user-info-container {
-  padding-top: 50px;
+  padding-top: 5vh;
 }
 
 .user-info {
@@ -7,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
-  padding: 30px 0px;
+  padding: 5vh 0px;
 }
 
 .user-info__profile {
@@ -17,9 +27,9 @@
 }
 
 .user-info__name {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
-  margin: 15px 0;
+  margin: 2vh 0;
 }
 .user-info__days {
   font-size: 20px;
@@ -28,20 +38,20 @@
 
 .user-info__description-container {
   width: 100%;
-  padding: 20px;
+  padding: 3vh 20px 0 20px;
 }
 
 .user-info__description-container p:first-child {
   border-bottom: var(--main-border);
   padding-bottom: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: gray;
 }
 
 .user-progress-select {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 5vh;
 }
 
 .user-progress-select button {
@@ -52,10 +62,14 @@
   background-color: white;
 }
 
+.user-progress-select button:focus {
+  outline: none;
+}
+
 .user-progress-container {
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  margin: 2vh 3vw;
 }
 
 .month {

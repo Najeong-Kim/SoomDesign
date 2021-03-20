@@ -4,11 +4,13 @@
 }
 
 .community-description__container input {
-  width: 70%;
-  height: 300px;
+  width: 80%;
+  height: 200px;
   padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .community-description__container input::placeholder {
-  font-size: 20px;
+  font-size: 15px;
 }
