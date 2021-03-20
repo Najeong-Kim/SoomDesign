@@ -11,17 +11,6 @@
 .list-container::-webkit-scrollbar {
   background-color: transparent;
 }
-
-.list-container::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-.list-container::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-.list-container::-webkit-scrollbar-corner {
-  background-color: transparent;
-}
  
 .list-checkset {
   display: flex;
@@ -61,6 +50,10 @@
   padding: 0;
   padding-bottom: 1%;
   color: #99e6ff;
+}
+
+.list-delete:focus {
+  outline: none;
 }
 
 .list-delete-container {
